@@ -1,0 +1,320 @@
+/*--------------- Main styles -----------------*/
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+} 
+
+.main {
+  margin-top: 0px; 
+}
+
+section {
+  padding: 5rem 0;
+}
+
+/*--------------- Main navbar -----------------*/
+.top-nav {
+  padding: 5px 0;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+.cart2 {
+  position: absolute !important;
+  color: #fff;
+  right: 20%;
+  top: 26px;
+}
+
+.cart2:hover {
+  color: #fff;
+}
+
+a.cart2.active.nav-link {
+  color: #fff;
+}
+
+/*--------------- Navigation menu -----------------*/
+.nav-menu-link::after{
+  display: none;
+}
+
+.navbar-menu {
+  margin: 0 auto;
+}
+
+.navbar-menu li {
+  margin: 0 0.5rem;
+}
+
+.navbar-menu li a {
+  font-weight: 600;
+}
+
+/*--------------- Carousel -----------------*/
+
+.main-carousel-caption h5 {
+  font-size: 4rem;
+  text-align: left;
+}
+
+.main-carousel-caption p {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.slides {
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide1 {
+  background-image: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1701174038/joshua-sukoff-ylKyLmqKZLc-unsplash_e9ymwq.jpg);
+}
+
+.slide2 {
+  background-image: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1701172616/slide1_hhq7bs.jpg);
+}
+
+.slide3 {
+  background-image: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1701178029/nasim-dadfar-w28Ei0Ap96w-unsplash_cxu5bx.jpg);
+}
+
+/*--------------- Home Page -----------------*/
+
+.top {
+  background: #fe4749;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 100%;
+  color: #fff;
+}
+
+/*--------------- Products -----------------*/
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Add ellipsis for long text */
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.product a img {
+  height: 165px;
+}
+
+/*--------------- Categories -----------------*/
+
+.box-category {
+  position: relative;
+  height: 160px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.cat-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cat-overlay {
+  transition: all 0.3s ease-in-out;
+}
+
+.cat-overlay h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.cat-overlay:hover {
+  background: rgba(254, 71, 74, 0.575);
+}
+
+.cat-1 {
+  background: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1701036775/young-caucasian-man-traveller-using-his-smartphone_93675-107524_f2hdva.avif);
+}
+
+.cat-2 {
+  background: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1701037241/146943_00_2x_hwwrch.jpg);
+}
+
+.cat-3 {
+  background: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1700952842/men_crwl5r.jpg);
+}
+
+.cat-4 {
+  background: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1700956867/best-hiking-backpacks-lead-1647296781_mbhzke.jpg);
+}
+
+.cat-5 {
+  background: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1701031477/814syIAHSZL._AC_UF894_1000_QL80__o2leck.jpg);
+}
+
+.cat-6 {
+  background: url(https://res.cloudinary.com/doye6tvxz/image/upload/v1701040009/rei-first-person-roundup-from-employee-tout-5bb4aa78652d48aca47a5cbc6fc07189_wvoszk.jpg);
+}
+
+/*--------------- Testimonial -----------------*/
+
+.carousel-testimonial {
+  background: #fe4749;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.carousel-item-testi {
+  color: #fff;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.avatar {
+  width: 85px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.carousel-item-testi p {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*--------------- Footer -----------------*/
+
+.footer {
+  background: #212121;
+  color: #bebebe;
+  padding: 3rem 0;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.footer a {
+  color: #b1b1b1;
+}
+
+.footer-bottom {
+  background: #363535;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  text-align: center;
+  margin: 0;
+  color: #bebebe;
+}
+
+.footer-icones i {
+  margin-right: 6px;
+  font-size: 1.3rem;
+}
+
+.social-footer {
+  display: inline-block;
+}
+
+.contact-footer li {
+  margin-bottom: 10px;
+}
+
+/*--------------- Values -----------------*/
+
+.value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value i {
+  font-size: 3rem;
+}
+
+.value h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.value p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+  .cart1 {
+    display: none;
+  }
+  
+  
+  
+  }
+
+@media (min-width: 768px){
+
+.cart2 {
+  display: none;
+
+  
+}
+
+
+
+}
+
